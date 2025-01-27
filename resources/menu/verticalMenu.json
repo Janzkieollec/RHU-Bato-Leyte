@@ -1,0 +1,321 @@
+{
+  "menu": [
+    {
+      "url": "/admin-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "dashboard-analytics",
+      "roles": [
+        "Admin"
+      ]
+    },
+    {
+      "url": "/doctor-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "doctor-dashboard",
+      "roles": [
+        "Doctor"
+      ]
+    },
+    {
+      "url": "/dentist-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "dentist-dashboard",
+      "roles": [
+        "Dentist"
+      ]
+    },
+    {
+      "url": "/nurse-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "nurse-dashboard",
+      "roles": [
+        "Nurse"
+      ]
+    },
+    {
+      "url": "/midwife-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "midwife-dashboard",
+      "roles": [
+        "Midwife"
+      ]
+    },
+    {
+      "url": "/staff-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "staff-dashboard",
+      "roles": [
+        "Staff"
+      ]
+    },
+    {
+      "url": "/patient-dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bxs-dashboard",
+      "slug": "patient-dashboard",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "menuHeader": "Patient",
+      "roles": [
+        "Admin",
+        "Doctor",
+        "Dentist",
+        "Nurse",
+        "Staff",
+        "Midwife"
+      ]
+    },
+    {
+      "url": "/patients",
+      "name": "Patients",
+      "icon": "menu-icon fa-solid fa-hospital-user",
+      "slug": "patients-view",
+      "roles": [
+        "Admin",
+        "Nurse",
+        "Staff",
+        "Midwife"
+      ]
+    },
+    {
+      "url": "/doctor-patients",
+      "name": "Patients",
+      "icon": "menu-icon fa-solid fa-hospital-user",
+      "slug": "doctor-view",
+      "roles": [
+        "Doctor"
+      ]
+    },
+    {
+      "url": "/dentist-patients",
+      "name": "Patients",
+      "icon": "menu-icon fa-solid fa-hospital-user",
+      "slug": "dentist-view",
+      "roles": [
+        "Dentist"
+      ]
+    },
+    {
+      "menuHeader": "Records",
+      "roles": [
+        "Nurse",
+        "Staff"
+      ]
+    },
+    {
+      "name": "Consultation",
+      "icon": "menu-icon fa-solid fa-notes-medical",
+      "slug": "consultation-view",
+      "url": "/consultations",
+      "roles": [
+        "Nurse",
+        "Staff"
+      ]
+    },
+    {
+      "name": "Dental",
+      "icon": "menu-icon fa-solid fa-tooth",
+      "slug": "dental-view",
+      "url": "/dentals",
+      "roles": [
+        "Staff",
+        "Nurse"
+      ]
+    },
+    {
+      "menuHeader": "Consultation",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "name": "Consultation Records",
+      "icon": "menu-icon fa-solid fa-notes-medical",
+      "slug": "consultation-records",
+      "url": "/consultation-records",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "name": "Diagnosis Records",
+      "icon": "menu-icon fa-solid fa-file-medical",
+      "slug": "consultation-diagnosis-view",
+      "url": "/consultation-diagnosis-records",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "menuHeader": "Dental",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "name": "Dental Records",
+      "icon": "menu-icon fa-solid fa-notes-medical",
+      "slug": "dental-records",
+      "url": "/dental-records",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "name": "Diagnosis Records",
+      "icon": "menu-icon fa-solid fa-file-medical",
+      "slug": "dental-diagnosis-view",
+      "url": "/dental-diagnosis-records",
+      "roles": [
+        "Patient"
+      ]
+    },
+    {
+      "menuHeader": "Records",
+      "roles": [
+        "Doctor",
+        "Dentist"
+      ]
+    },
+    {
+      "name": "Diagnosis",
+      "icon": "menu-icon fa-solid fa-notes-medical",
+      "slug": "diagnosis-view",
+      "url": "/patients-consultation-diagnosis",
+      "roles": [
+        "Doctor"
+      ]
+    },
+    {
+      "name": "Diagnosis",
+      "icon": "menu-icon fa-solid fa-notes-medical",
+      "slug": "dental-view",
+      "url": "/patients-dental-diagnosis",
+      "roles": [
+        "Dentist"
+      ]
+    },
+    {
+      "menuHeader": "Planning",
+      "roles": [
+        "Midwife"
+      ]
+    },
+    {
+      "name": "Family Planning",
+      "icon": "menu-icon fa-solid fa-people-group",
+      "slug": "planning-view",
+      "url": "/family-planning",
+      "roles": [
+        "Midwife"
+      ]
+    },
+    {
+      "menuHeader": "Subdermal Implant",
+      "roles": [
+        "Midwife"
+      ]
+    },
+    {
+      "name": "Subdermal Implant",
+      "icon": "menu-icon fa-solid fa-solid fa-syringe",
+      "slug": "implant-view",
+      "url": "/implant",
+      "roles": [
+        "Midwife"
+      ]
+    },
+    {
+      "menuHeader": "Generate Reports",
+      "roles": [
+        "Nurse",
+        "Staff",
+        "Midwife"
+      ]
+    },
+    {
+      "name": "Generate Reports",
+      "icon": "menu-icon fa-solid fa-file-alt",
+      "slug": "report-view",
+      "url": "/generate-reports",
+      "roles": [
+        "Nurse",
+        "Staff",
+        "Midwife"
+      ]
+    },
+    {
+      "menuHeader": "Announcement",
+      "roles": [
+        "Nurse",
+        "Staff"
+      ]
+    },
+    {
+      "name": "Announcements",
+      "icon": "menu-icon fa-solid fa-bullhorn",
+      "slug": "announcement-view",
+      "url": "/announcements",
+      "roles": [
+        "Nurse",
+        "Staff"
+      ]
+    },
+    {
+      "menuHeader": "Import Patient Records",
+      "roles": [
+        "Nurse",
+        "Staff"
+      ]
+    },
+    {
+      "name": "Import Patients",
+      "icon": "menu-icon fa-solid fa-upload",
+      "slug": "import-patients",
+      "url": "/import-patients",
+      "roles": [
+        "Nurse",
+        "Staff"
+      ]
+    },
+    {
+      "menuHeader": "Population",
+      "roles": [
+        "Admin"
+      ]
+    },
+    {
+      "name": "Population",
+      "icon": "menu-icon fa-solid fa-users",
+      "slug": "population-view",
+      "url": "/population",
+      "roles": [
+        "Admin"
+      ]
+    },
+    {
+      "menuHeader": "User Management",
+      "roles": [
+        "Admin"
+      ]
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon fa-solid fa-user-group",
+      "slug": "user-view",
+      "url": "/users",
+      "roles": [
+        "Admin"
+      ]
+    }
+  ]
+}
