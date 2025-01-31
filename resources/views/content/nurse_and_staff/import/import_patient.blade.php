@@ -154,7 +154,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <form action="/importpatients" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('importpatients') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="mb-4">
                                 <label for="importFile" class="form-label">Upload Excel File</label>
